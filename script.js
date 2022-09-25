@@ -119,3 +119,4 @@ const contactObserver = new IntersectionObserver (
     newOptions);
     contactObserver.observe(sectionContact)
 
+    document.getElementById("footer-year").innerHTML = new Date().getFullYear();
