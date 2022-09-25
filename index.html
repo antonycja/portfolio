@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>portfolio_v2</title>
+
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- font awesome -->
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  </head>
+  <body>
+    <header id="home">
+      <img src="images/hero.png" alt="" class="hero-img" />
+      <div class="nav-container">
+        <div class="subcontainer">
+          <nav class="navbar-content">
+            <a href="#" class="nav-brand"
+              ><img src="images/logo.svg" alt="" class="logo"
+            /></a>
+
+            <div class="nav-menu">
+              <ul class="nav-men">
+                <li class="nav-item active">
+                  <a class="navbar-link" href="#home">home</a>
+                </li>
+                <li class="nav-item about">
+                  <a class="navbar-link" href="#about">about</a>
+                </li>
+                <li class="nav-item projects">
+                  <a class="navbar-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item contact">
+                  <a class="navbar-link" href="#contact">contact me</a>
+                </li>
+                <div class="sm-btns">
+                  <li class="nav-icon">
+                    <a
+                      href="https://www.youtube.com/c/Antonycja"
+                      target="_blank"
+                      ><img
+                        src="images/icons/youtube.svg"
+                        alt="youtube"
+                        class="icon"
+                    /></a>
+                  </li>
+                  <li class="nav-icon">
+                    <a href="https://github.com/antonycja" target="_blank"
+                      ><img
+                        src="images/icons/github.svg"
+                        alt="github"
+                        class="icon"
+                    /></a>
+                  </li>
+                  <li class="nav-icon">
+                    <a
+                      href="https://www.linkedin.com/in/antony-maposa/"
+                      target="_blank"
+                      ><img
+                        src="images/icons/linkedin.svg"
+                        alt="linkedin"
+                        class="icon"
+                    /></a>
+                  </li>
+                </div>
+              </ul>
+              <div class="sm-nav-btn-item">
+                <button class="nav-cv styled" type="button">
+                  Download <span class="cv-span">CV</span>
+                </button>
+              </div>
+            </div>
+            <div class="nav-btns int-icons">
+              <ul class="navbar-ul nav-icons int-icons">
+                <li class="nav-icon">
+                  <a href="https://www.youtube.com/c/Antonycja" target="_blank"
+                    ><img
+                      src="images/icons/youtube.svg"
+                      alt="youtube"
+                      class="icon"
+                  /></a>
+                </li>
+                <li class="nav-icon">
+                  <a href="https://github.com/antonycja" target="_blank"
+                    ><img
+                      src="images/icons/github.svg"
+                      alt="github"
+                      class="icon"
+                  /></a>
+                </li>
+                <li class="nav-icon">
+                  <a
+                    href="https://www.linkedin.com/in/antony-maposa/"
+                    target="_blank"
+                    ><img
+                      src="images/icons/linkedin.svg"
+                      alt="linkedin"
+                      class="icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="hero-container">
+        <!-- This must have the properties for 100vh -->
+        <div class="left">
+          <h3>i'm</h3>
+          <h1>Antony<br />Maposa</h1>
+          <a href="#about"
+            ><button class="more hero-btn">More About Me</button></a
+          >
+        </div>
+        <div class="right">
+          <h3>a</h3>
+          <h1>Software<br />Developer</h1>
+          <a href="#projects">
+            <button class="projects hero-btn">My Projects</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Secondary nav -->
+    <div class="sub-navigation">
+      <img src="images/nav/Vector 3.png" class="sub-nav-bg" alt="" />
+      <div class="sub-nav-container">
+        <div class="subcontainer">
+          <nav class="navbar-content">
+            <a href="#" class="nav-brand"
+              ><img src="images/nav/c_logo.png" alt="" class="sub-logo"
+            /></a>
+
+            <div class="nav-menu">
+              <ul class="nav-men">
+                <li class="nav-item">
+                  <a class="navbar-link" href="#home">home</a>
+                </li>
+                <li class="nav-item about">
+                  <a class="navbar-link" href="#about">about</a>
+                </li>
+                <li class="nav-item projects">
+                  <a class="navbar-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item contact">
+                  <a class="navbar-link" href="#contact">contact me</a>
+                </li>
+                <div class="sm-btns">
+                  <li class="nav-icon">
+                    <a
+                      href="https://www.youtube.com/c/Antonycja"
+                      target="_blank"
+                      ><img
+                        src="images/icons/youtube.svg"
+                        alt="youtube"
+                        class="icon"
+                    /></a>
+                  </li>
+                  <li class="nav-icon">
+                    <a href="https://github.com/antonycja" target="_blank"
+                      ><img
+                        src="images/icons/github.svg"
+                        alt="github"
+                        class="icon"
+                    /></a>
+                  </li>
+                  <li class="nav-icon">
+                    <a
+                      href="https://www.linkedin.com/in/antony-maposa/"
+                      target="_blank"
+                      ><img
+                        src="images/icons/linkedin.svg"
+                        alt="linkedin"
+                        class="icon"
+                    /></a>
+                  </li>
+                </div>
+              </ul>
+              <div class="sm-nav-btn-item">
+                <button class="nav-cv styled" type="button">Download CV</button>
+              </div>
+            </div>
+            <div class="nav-btns int-icons">
+              <ul class="navbar-ul nav-icons int-icons">
+                <li class="nav-icon">
+                  <a href="https://www.youtube.com/c/Antonycja" target="_blank"
+                    ><img
+                      src="images/icons/youtube.svg"
+                      alt="youtube"
+                      class="sub-icon"
+                  /></a>
+                </li>
+                <li class="nav-icon">
+                  <a href="https://github.com/antonycja" target="_blank"
+                    ><img
+                      src="images/icons/github.svg"
+                      alt="github"
+                      class="sub-icon"
+                  /></a>
+                </li>
+                <li class="nav-icon">
+                  <a
+                    href="https://www.linkedin.com/in/antony-maposa/"
+                    target="_blank"
+                    ><img
+                      src="images/icons/linkedin.svg"
+                      alt="linkedin"
+                      class="sub-icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="about-tag">
+        <h1 class="title-tag">About Me</h1>
+      </div>
+
+      <div class="projects-tag">
+        <h1 class="title-tag">Projects</h1>
+      </div>
+
+      <div class="more-projects-tag">
+        <h1 class="title-tag">More Projects</h1>
+      </div>
+
+      <div class="contact-tag">
+        <h1 class="title-tag">Contact Me</h1>
+      </div>
+    </div>
+
+    <!-- end of secodary nav -->
+
+    <!-- About Section starts here -->
+    <div class="container">
+      <section id="about">
+        <main class="about-me main-sec">
+          <div class="box-img">
+            <div class="title">
+              <h1>who am i?</h1>
+            </div>
+            <img src="images/cards/card-med.png" alt="card background" />
+
+            <div class="box who-am-i">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+                amet commodo porttitor consectetur at. Amet nisl ipsum, ac non
+                et odio. Laoreet nulla egestas quis pellentesque egestas enim,
+                sapien sit elit. Egestas ultricies sit quam fusce sit. Risus
+                nibh eu dignissim sit dictum. Velit amet sit odio arcu odio nam
+                eget. Libero sed malesuada feugiat sed consequat. Nisl vitae
+                augue ultrices rhoncus. Augue nunc, amet consectetur egestas
+                aliquam dictum felis non. Faucibus fringilla euismod ut id
+                laoreet tempor id. Purus sed at vivamus lectus facilisis
+                porttitor amet. Neque nisl congue ullamcorper nam nisi. Nunc,
+                pharetra nibh vehicula dolor enim, non. Id tortor, amet nisi,
+                eget in vulputate ultricies pharetra. Sollicitudin rhoncus eget
+                purus mi. Ipsum integer mauris aliquet eget amet, convallis
+                quis. Eu, ultrices lacus non sit.
+              </p>
+            </div>
+          </div>
+          <div class="box-img">
+            <div class="title">
+              <h1>my skills</h1>
+            </div>
+            <img src="images/cards/card-med.png" alt="card background" />
+            <div class="box">
+              <div class="skills">
+                <div class="design">
+                  <span class="iconify" data-icon="logos:html-5"></span>
+                  <span class="iconify" data-icon="logos:css-3"></span>
+                </div>
+                <div class="technical">
+                  <span
+                    class="iconify"
+                    data-icon="fa-brands:bootstrap"
+                    style="color: #9747ff"
+                  ></span>
+                  <span class="iconify" data-icon="logos:python"></span>
+
+                  <span class="iconify" data-icon="logos:javascript"></span>
+                </div>
+                <div class="technical">
+                  <span class="iconify" data-icon="logos:python"></span>
+
+                  <span class="iconify" data-icon="logos:javascript"></span>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <span>html</span>
+                <span>css</span>
+                <span>Bootstrap</span>
+                <span>javascript</span>
+                <span>python</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <!-- About section Ends Here -->
+
+      <!-- Projects Section starts here -->
+      <section id="projects">
+        <main class="my-projects">
+          <div class="box-container">
+            <div class="full-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>website</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+
+                <div
+                  id="Web-1-carousel"
+                  class="carousel carousel-dark slide carousel-fade interior-img"
+                  data-bs-interval="5000"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/example-img/proj/web1.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/web2.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/web1.png" alt="" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#Web-1-carousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#Web-1-carousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="mini-box skills">
+                  <h4>Project Name</h4>
+                </div>
+              </div>
+              <div class="description">
+                <div class="text">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi harum praesentium modi blanditiis facilis
+                    reprehenderit rem repellat aliquid, excepturi vel mollitia,
+                    provident animi perferendis natus ipsum nisi odit explicabo
+                    illo. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Labore nulla unde accusamus odit provident corrupti,
+                    non architecto. Exercitationem iusto cumque repellat
+                    reiciendis excepturi.
+                  </p>
+                </div>
+                <div class="description-btns">
+                  <button class="live">live</button>
+                  <button class="code">code</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="full-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>website</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+
+                <div
+                  id="Web-2-carousel"
+                  class="carousel carousel slide carousel-fade interior-img"
+                  data-bs-interval="5000"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/example-img/proj/web2.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/web1.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/web2.png" alt="" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#Web-2-carousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#Web-2-carousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="mini-box skills">
+                  <h4>Project Name</h4>
+                </div>
+              </div>
+              <div class="description">
+                <div class="text">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi harum praesentium modi blanditiis facilis
+                    reprehenderit rem repellat aliquid, excepturi vel mollitia,
+                    provident animi perferendis natus ipsum nisi odit explicabo
+                    illo. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Labore nulla unde accusamus odit provident corrupti,
+                    non architecto. Exercitationem iusto cumque repellat
+                    reiciendis excepturi.
+                  </p>
+                </div>
+                <div class="description-btns">
+                  <button class="live">live</button>
+                  <button class="code">code</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-container">
+            <div class="full-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+
+                <div
+                  id="Python-1-carousel"
+                  class="carousel carousel-dark slide carousel-fade interior-img"
+                  data-bs-interval="5000"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/example-img/proj/python1.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/python2.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/python1.png" alt="" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#Python-1-carousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#Python-1-carousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="mini-box skills">
+                  <h4>Project Name</h4>
+                </div>
+              </div>
+              <div class="description">
+                <div class="text">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi harum praesentium modi blanditiis facilis
+                    reprehenderit rem repellat aliquid, excepturi vel mollitia,
+                    provident animi perferendis natus ipsum nisi odit explicabo
+                    illo. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Labore nulla unde accusamus odit provident corrupti,
+                    non architecto. Exercitationem iusto cumque repellat
+                    reiciendis excepturi.
+                  </p>
+                </div>
+                <div class="description-btns">
+                  <button class="live">video</button>
+                  <button class="code">code</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="full-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div
+                  id="Python-2-carousel"
+                  class="carousel carousel slide carousel-fade interior-img"
+                  data-bs-interval="5000"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/example-img/proj/python2.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/python1.png" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/example-img/proj/python2.png" alt="" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#Python-2-carousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#Python-2-carousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="mini-box skills">
+                  <h4>Project Name</h4>
+                </div>
+              </div>
+              <div class="description">
+                <div class="text">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Commodi harum praesentium modi blanditiis facilis
+                    reprehenderit rem repellat aliquid, excepturi vel mollitia,
+                    provident animi perferendis natus ipsum nisi odit explicabo
+                    illo. Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Labore nulla unde accusamus odit provident corrupti,
+                    non architecto. Exercitationem iusto cumque repellat
+                    reiciendis excepturi.
+                  </p>
+                </div>
+                <div class="description-btns">
+                  <button class="live">video</button>
+                  <button class="code">code</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <!-- Projects Section Ends here -->
+
+      <!-- More-Projects Section starts here -->
+      <section id="more-projects">
+        <main class="more-projects">
+          <div class="mini-box-container">
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>web</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo2.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                              <h4>hello world </h4>
+                              <p>one</p>
+                          </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>web</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo1.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>web</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo2.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>web</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo1.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="mini-box-container">
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo2.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                              <h4>hello world </h4>
+                              <p>one</p>
+                          </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo1.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo2.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+
+            <div class="small-card">
+              <div class="mini-box-img">
+                <div class="title">
+                  <h1>python</h1>
+                </div>
+                <div class="title-sec">
+                  <img src="images/cards/card-sm.png" alt="card background" />
+                </div>
+                <div class="interior-img">
+                  <img src="images/example-img/more_proj/demo1.png" alt="" />
+                </div>
+
+                <!-- <div class="mini-box">
+                          <h4>hello world </h4>
+                          <p>one</p>
+                      </div> -->
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <!-- More-Projects Section Ends here -->
+    </div>
+
+    <!-- Contact Section starts here -->
+    <section id="contact">
+      <img src="images/contact/top.png" class="top-img" alt="" />
+      <img src="images/contact/bottom.png" class="bottom-img" alt="" />
+      <div class="contact-me-bg">
+        <!-- <div class="success">  
+                <lottie-player class="success-animation" src="https://assets3.lottiefiles.com/packages/lf20_vqpiawzv.json"  background="transparent"  speed="0.5"  style="width: 600px; height: 600px;" ></lottie-player>
+                <h1 class="env-text">sent</h1>
+            </div> -->
+        <main class="contact-me">
+          <div class="contact-box">
+            <div class="image-side">
+              <div class="env">
+                <lottie-player
+                  src="https://assets4.lottiefiles.com/packages/lf20_cbc2dy5y.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 300px; height: 300px"
+                  loop
+                  autoplay
+                ></lottie-player>
+              </div>
+
+              <!-- <img src="images/contact/envelope.svg" class="env" alt=""> -->
+              <img src="images/contact/contact-bg.png" class="c-bg" alt="" />
+            </div>
+            <div class="contact-form">
+              <div class="heading">
+                <h1>Like what you see?</h1>
+                <h3>Let's talk.</h3>
+              </div>
+              <form action="https://formspree.io/f/mgedyljr" method="POST">
+                <div class="name-email seq">
+                  <div class="input-grp">
+                    <input name="Full Name" type="text" id="name" required />
+                    <label for="name">Full Name</label>
+                  </div>
+                  <div class="input-grp">
+                    <input name="Email" type="email" id="email" required />
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+                <div class="input-grp msg seq">
+                  <textarea
+                    name="Message"
+                    id="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                  <label for="message">Message...</label>
+                </div>
+                <div class="submit-btn seq">
+                  <p>
+                    <button class="send" type="submit">Submit</button> or
+                    <span>Email me: </span>
+                    <a href="mailto:cjamaposa@gmail.com">cjamaposa@gmail.com</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
+      </div>
+
+      <footer>
+        <p>
+          <span
+            class="copyright iconify"
+            data-icon="fa-regular:copyright"
+            data-width="20"
+          ></span>
+          Copyright <span id="footer-year">2020</span> AntonyCJA. All rights
+          reserved
+        </p>
+      </footer>
+    </section>
+    <!-- Contact Section Ends here -->
+
+    <!-- Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
