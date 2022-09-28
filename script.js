@@ -18,6 +18,26 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     navMenu.classList.remove("active");
 }))
 
+// Scroll to Home
+function goToHome() {
+    document.getElementById("home").scrollIntoView();
+  }
+  
+// Scroll to About
+function goToAbout() {
+    document.getElementById("about").scrollIntoView();
+  }
+
+// Scroll to projects
+function goToProjects() {
+    document.getElementById("projects").scrollIntoView();
+  }
+
+// Scroll to contact
+function goToContact() {
+    document.getElementById("contact").scrollIntoView();
+  }
+
 // Intersection obsever
 
 const header = document.querySelector('header .nav-container');

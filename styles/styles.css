@@ -32,6 +32,7 @@ a {
 
 a:hover {
   color: #0a58ca;
+  cursor: pointer;
 }
 
 nav li {
