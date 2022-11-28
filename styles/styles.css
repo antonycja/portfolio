@@ -394,7 +394,7 @@ ul a {
 .mini-box-img img {
   width: 98%;
   opacity: 0.9;
-  border-radius: 2rem;
+  border-radius: 3rem;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -473,7 +473,7 @@ ul a {
   font-size: 1.01rem;
   line-height: 1;
   margin: auto;
-  top: 50%;
+  top: 42%;
   z-index: 1;
   opacity: 0.65;
 
@@ -1069,6 +1069,9 @@ footer svg {
     display: flex;
     margin: 3rem 4rem;
   }
+  .mini-box {
+    top: 70%;
+  }
   .mini-box-container:nth-child(1) {
     margin-right: 0;
     margin-bottom: 1rem;
@@ -1138,7 +1141,9 @@ footer svg {
     background-color: transparent;
     padding: 0 0.5rem 0.5rem 0;
   }
-
+  .mini-box {
+    top: 65%;
+  }
   .nav-items {
     margin: 1rem 0;
   }
@@ -1177,6 +1182,7 @@ footer svg {
   }
   .mini-box {
     padding: 5rem 0;
+    top: 25%;
   }
   .text p {
     margin-top: 0.5rem;
@@ -1297,6 +1303,7 @@ footer svg {
   }
   .mini-box {
     padding: 10rem 0;
+    top: 15%;
   }
 div.box-img:nth-child(2) {
   margin-bottom: 0px;
@@ -1388,6 +1395,9 @@ div.box-img:nth-child(2) {
   }
   .mini-box-img {
     min-height: 0;
+  }
+  .mini-box {
+    position: relative;
   }
   .small-card .mini-box-img .title h1 {
     font-size: 0.8rem;
