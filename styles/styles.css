@@ -394,7 +394,7 @@ ul a {
 .mini-box-img img {
   width: 98%;
   opacity: 0.9;
-  border-radius: 3rem;
+  border-radius: 2.4rem;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -409,7 +409,7 @@ ul a {
   font-size: 1.01rem;
   line-height: 2;
   margin: 3em;
-  text-align: justify;
+  text-align: start;
   margin-top: 0.3em;
 }
 .skills {
@@ -558,7 +558,16 @@ ul a {
   justify-content: space-between;
   padding: 5em 0;
 }
-
+.more-proj {
+  padding: 30% 0;
+  opacity: 0.2;
+}
+.more-proj:hover{
+  opacity: 1;
+}
+.mini-box-img:hover{
+  opacity: 0.7;
+}
 .small-card .mini-box-img {
   min-width: 100%;
   max-width: 100%;
