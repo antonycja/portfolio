@@ -63,10 +63,10 @@ button {
   font-weight: 700;
   transition-duration: 300ms;
 }
-img,
-svg {
+/* #projects img,
+#projects svg {
   vertical-align: unset;
-}
+} */
 .container {
   max-width: 80%;
   margin: auto;
@@ -247,7 +247,12 @@ ul a {
   line-height: 1.2;
   /* border: 1px solid red; */
 }
-
+.sub-logo{
+  transition: transform .7s ease-in-out;
+}
+.sub-logo:hover{
+  transform: rotate(360deg);
+}
 .left,
 .right {
   line-height: 10;
@@ -375,7 +380,12 @@ ul a {
   z-index: 2;
 }
 
-
+.skills .iconify {
+  transition: transform .7s ease-in-out;
+}
+.skills .iconify:hover {
+  transform: rotate(360deg);
+}
 
 .box-img {
   width: 100%;
@@ -394,7 +404,10 @@ ul a {
 .mini-box-img img {
   width: 98%;
   opacity: 0.9;
-  border-radius: 2.4rem;
+  /* border-radius: 2.4rem; */
+}
+.mini-box-img img {
+border-radius: 2.4rem;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -549,9 +562,10 @@ ul a {
   background-color: #fff;
   color: #ff4d4d;
 }
-.mini-box-btn{
+/* .mini-box-btn{
   
-}
+} */
+
 /* End of Projects section*/
 
 /* More Projects Section */
@@ -578,8 +592,8 @@ ul a {
   max-height: 15.85em;
 }
 .small-card .title-sec {
-  max-width: 85%;
-  left: 11px;
+  max-width: 92%;
+  left: 1.5%;
 }
 .small-card .title {
   max-width: 92%;
