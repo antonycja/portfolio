@@ -399,16 +399,17 @@ ul a {
   margin-top: 4%;
   z-index: 0;
   position: relative;
+  overflow: hidden;
 }
 .box-img img,
 .mini-box-img img {
-  width: 98%;
+  width: 100%;
   opacity: 0.9;
   /* border-radius: 2.4rem; */
 }
-.mini-box-img img {
+/* .mini-box-img img {
 border-radius: 2.4rem;
-}
+} */
 
 .carousel-control-next, .carousel-control-prev {
   z-index: 2;
@@ -468,8 +469,9 @@ border-radius: 2.4rem;
 
 .mini-box-img img {
   position: relative;
-  width: 103%;
-  right: 1.85%;
+  width: 100%;
+  border-radius: 2.25rem;
+  /* right: 1.85%; */
 }
 /* #projects .main-sec {
     margin-top: 1em;
@@ -486,7 +488,8 @@ border-radius: 2.4rem;
   font-size: 1.01rem;
   line-height: 1;
   margin: auto;
-  top: 42%;
+  top: 0;
+  min-height: 95%;
   z-index: 1;
   opacity: 0.65;
 
@@ -499,20 +502,21 @@ border-radius: 2.4rem;
   /* background-color: aqua; */
   min-height: 20.85em;
   max-height: 20.85em;
-  margin-right: 0.5em;
-
+  margin-right: 1.5em;
+  overflow: hidden;
   z-index: 0;
   position: relative;
 }
 .title-sec {
   position: relative;
   z-index: 2;
-  max-width: 95%;
+  max-width: 100%;
+  /* left: -2%; */
 }
 .interior-img {
   position: absolute;
   top: 0;
-  max-width: 96%;
+  max-width: 100%;
 }
 
 .box-container {
@@ -586,17 +590,18 @@ border-radius: 2.4rem;
   opacity: 0.7;
 }
 .small-card .mini-box-img {
-  min-width: 100%;
+  /* min-width: 100%; */
   max-width: 100%;
-  min-height: 15.85em;
+  /* min-height: 15.85em; */
   max-height: 15.85em;
+  overflow: hidden;
 }
 .small-card .title-sec {
-  max-width: 92%;
-  left: 1.5%;
+  max-width: 100%;
+  /* left: 1.5%; */
 }
 .small-card .title {
-  max-width: 92%;
+  max-width: 100%;
 }
 .small-card .mini-box {
   padding: 4em 0;
@@ -843,11 +848,15 @@ footer svg {
 }
 
 /* End of Footer */
-
-@media (max-width: 1600.98px) {
+@media (max-width: 1740.98px){
   .container {
     min-width: 90%;
   }
+}
+@media (max-width: 1600.98px) {
+  /* .container {
+    min-width: 90%;
+  } */
 
   /* Contact Page */
   .contact-me {
@@ -1010,8 +1019,8 @@ footer svg {
     text-align: left;
   }
   .mini-box-img {
-    min-height: 15em;
-    max-height: 15em;
+    min-height: 100%;
+    max-height: 100%;
   }
   .text p {
     margin-top: 0.2em;
@@ -1036,6 +1045,7 @@ footer svg {
   }
   .more-projects {
     padding: 0 2em;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 1199.98px) {
@@ -1071,12 +1081,16 @@ footer svg {
     max-width: none;
   }
   .mini-box-img {
-    max-width: none;
-    min-width: 46.665%;
+    /* max-width: none; */
+    /* min-width: 46.665%; */
+    min-width: 40%;
   }
   .text p {
     margin-top: 1rem;
     font-size: 1.4rem;
+  }
+  .small-card .mini-box-img {
+    max-width: 80%;
   }
 
   .more-projects {
@@ -1085,18 +1099,19 @@ footer svg {
   .title-sec {
     position: relative;
     z-index: 2;
-    max-width: 22.8rem;
-    width: 95%;
+    /* max-width: 22.8rem; */
+    width: 100%;
   }
   .small-card .title-sec {
-    max-width: 70%;
+    max-width: 100%;
   }
   .full-card {
     display: flex;
     margin: 3rem 4rem;
   }
   .mini-box {
-    top: 70%;
+    top: 0;
+    min-height: 100%;
   }
   .mini-box-container:nth-child(1) {
     margin-right: 0;
@@ -1167,9 +1182,9 @@ footer svg {
     background-color: transparent;
     padding: 0 0.5rem 0.5rem 0;
   }
-  .mini-box {
-    top: 65%;
-  }
+  /* .mini-box {
+    top: 40%;
+  } */
   .nav-items {
     margin: 1rem 0;
   }
@@ -1206,20 +1221,20 @@ footer svg {
   .full-card {
     margin: 1rem 4rem;
   }
-  .mini-box {
+  /* .mini-box {
     padding: 5rem 0;
     top: 25%;
-  }
+  } */
   .text p {
     margin-top: 0.5rem;
     font-size: 1.01rem;
   } 
 .small-card .title-sec {
-    min-width: 85%;
+    min-width: 100%;
 }
 .small-card .title-sec img{
   max-width: 18.5rem;
-  min-width: 105%;
+  min-width: 100%;
 }
 .small-card .title {
   min-width: 112%;
@@ -1302,22 +1317,20 @@ footer svg {
   }
 
   /* Projects */
-  #projects .mini-box-img {
+  /* #projects .mini-box-img .carousel img {
     width: 80vw;
-  }
-  #projects .mini-box-img .carousel img {
-    width: 80vw;
-  }
+  } */
   #projects .mini-box-img img {
-    width: 79vw;
+    width: 100%;
   }
   .full-card {
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
   .mini-box-img {
     min-height: 33.25rem;
     max-height: unset;
+    min-width: 100%;
   }
   .description {
     height: unset;
@@ -1328,8 +1341,8 @@ footer svg {
     font-size: 1.3rem;
   }
   .mini-box {
-    padding: 10rem 0;
-    top: 15%;
+    /* padding: 10rem 0; */
+    top: 0;
   }
 div.box-img:nth-child(2) {
   margin-bottom: 0px;
@@ -1356,7 +1369,7 @@ div.box-img:nth-child(2) {
 
 @media (max-width: 675.00px) {
   .mini-box-img {
-    min-height: 29.5rem;
+    min-height: 25rem;
   }
   .about-me .iconify {
     margin-top: 0.1rem;
@@ -1377,6 +1390,9 @@ div.box-img:nth-child(2) {
   }
   .box-img {
     min-height: 25rem;
+  }
+  .mini-box {
+    min-height: 85%;
   }
 
 }
@@ -1419,11 +1435,12 @@ div.box-img:nth-child(2) {
   .main-sec {
     flex-direction: column;
   }
-  .mini-box-img {
-    min-height: 0;
-  }
+  /* .mini-box-img {
+    min-height: 26rem;
+  } */
   .mini-box {
-    position: relative;
+    /* position: relative; */
+    min-height: 95%;
   }
   .small-card .mini-box-img .title h1 {
     font-size: 0.8rem;
@@ -1454,7 +1471,16 @@ div.box-img:nth-child(2) {
     margin: 10% 0 3em;
   }
   .mini-box {
-    padding: 8rem 0;
+    min-height: 80%;
+  }
+  .mini-box-img {
+    min-height: 20rem;
+  }
+  .mini-box-img img {
+    border-radius: 2rem;
+  }
+  .small-card .title-sec img {
+    vertical-align: top;
   }
   .small-card .mini-box-img .title h1 {
     font-size: 0.7rem;
